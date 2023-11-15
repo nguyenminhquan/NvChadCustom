@@ -7,9 +7,7 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
-    "typescript",
-    "tsx",
-    "c",
+    "php",
     "markdown",
     "markdown_inline",
   },
@@ -30,13 +28,7 @@ M.mason = {
     -- web dev stuff
     "css-lsp",
     "html-lsp",
-    "typescript-language-server",
-    "deno",
     "prettier",
-
-    -- c/cpp stuff
-    "clangd",
-    "clang-format",
   },
 }
 
@@ -44,6 +36,7 @@ M.mason = {
 M.nvimtree = {
   git = {
     enable = true,
+    ignore = false,
   },
 
   renderer = {
